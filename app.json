@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/myindex/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "葫芦娃救爷爷",
+    "navigationBarTextStyle":"black"
+  }
+}

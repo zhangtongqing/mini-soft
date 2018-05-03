@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="userinfo">
+    <view class="section section_gap" wx:for="{{body}}" wx:for-item="item">
+      <view class="userinfo-nickname">{{item.name}}</view>
+      <view class="section__ctn">
+        <image style="width: 200px; height: 200px; background-color: #eeeeee;" src="http://osnro65t2.bkt.clouddn.com/{{item.frontCoverURL}}"></image>
+      </view>
+    </view>
+  </view>
